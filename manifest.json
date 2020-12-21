@@ -1,0 +1,13 @@
+{
+  "name": "Magic Code Redirect",
+  "version": "1.0",
+  "description": "Added Context menu to redirect to magic site",
+  "manifest_version": 2,
+  "permissions": [
+    "contextMenus",
+    "tabs"
+  ],
+  "background": {
+    "scripts": ["index.js"]
+  }
+}
